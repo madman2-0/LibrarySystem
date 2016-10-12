@@ -12,6 +12,7 @@
               <org.springframework-version>4.0.1.RELEASE</org.springframework-version>
               <org.aspectj-version>1.6.10</org.aspectj-version>
               <org.slf4j-version>1.6.6</org.slf4j-version>
+              <suiteXmlFile>testng.xml</suiteXmlFile>
        </properties>
        <dependencies>
               <!-- Spring -->
@@ -277,10 +278,9 @@
 			                <version>2.14.1</version>
 			                <configuration>
 			                    <!-- Suite testng xml file to consider for test execution -->
-			                    <suiteXmlFiles>
-			                        <suiteXmlFile>testng.xml</suiteXmlFile>
-			                        <suiteXmlFile>suites-test-testng.xml</suiteXmlFile>
-			                    </suiteXmlFiles>
+			                    
+			                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+			                    
 			                </configuration>
 			            </plugin>
                      
