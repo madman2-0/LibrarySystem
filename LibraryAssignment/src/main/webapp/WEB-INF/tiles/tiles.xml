@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+
+
+
+
+<tiles-definitions>  
+  
+    <definition name="defaultTemplate" template="/WEB-INF/Layout/template.jsp">
+        <put-attribute name="title" value="" />
+         <put-attribute name="header" value="/WEB-INF/Layout/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/Layout/menu.jsp" />
+        <put-attribute name="side" value="/WEB-INF/Layout/side.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/Layout/footer.jsp" />
+    </definition>
+    
+<!--     <definition name="loginTemp" template="/WEB-INF/Layout/Logintemplate.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="body" value="" />
+    </definition> -->
+    
+    <definition name="Successful" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/Successful.jsp" />  
+    </definition> 
+    
+    <definition name="signin" extends="defaultTemplate">  
+        <put-attribute name="title" value="SignInUser" />
+        <put-attribute name="body" value="/WEB-INF/views/signin.jsp" />  
+    </definition>  
+    
+    <definition name="updateBookPage" extends="defaultTemplate">  
+        <put-attribute name="title" value="Update Book" />
+        <put-attribute name="body" value="/WEB-INF/views/updateBookPage.jsp" />  
+    </definition>
+    
+    <definition name="home" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Home" />
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp" />  
+    </definition>  
+    
+    <definition name="signup" extends="defaultTemplate">  
+        <put-attribute name="title" value="Sign Up" />
+        <put-attribute name="body" value="/WEB-INF/views/signup.jsp" />  
+    </definition>
+    
+    <definition name="Successful" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/Successful.jsp" />  
+    </definition>
+    
+    <!-- <definition name="registrationfail" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/registrationfail.jsp" />  
+    </definition> -->
+ 
+  <definition name="id" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/id.jsp" />  
+    </definition>
+    
+<!--   <definition name="aboutus" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/aboutus.jsp" />  
+    </definition> -->
+   
+   <definition name="display" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/display.jsp" />  
+    </definition>
+    
+    <definition name="successfulupdate" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/successfulupdate.jsp" />  
+    </definition>
+    <definition name="deletepage" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/deletepage.jsp" />  
+    </definition>
+    
+    <definition name="about" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/about.jsp" />  
+    </definition>
+    <definition name="career" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/career.jsp" />  
+    </definition>
+    <definition name="adminsignin" extends="defaultTemplate">  
+        <put-attribute name="title" value="Admin SignIn" />
+        <put-attribute name="body" value="/WEB-INF/views/adminsignin.jsp" />  
+    </definition>
+    <definition name="adminpage" extends="defaultTemplate">  
+        <put-attribute name="title" value="Admin SignIn" />
+        <put-attribute name="body" value="/WEB-INF/views/adminpage.jsp" />  
+    </definition>
+    <definition name="bookslist" extends="defaultTemplate">  
+        <put-attribute name="title" value="Insert" />
+        <put-attribute name="body" value="/WEB-INF/views/bookslist.jsp" />  
+    </definition>
+    <definition name="SuccessfulBook" extends="defaultTemplate">  
+        <put-attribute name="title" value="Insert" />
+        <put-attribute name="body" value="/WEB-INF/views/SuccessfulBook.jsp" />  
+    </definition>
+    <definition name="SuccessfulUpdate" extends="defaultTemplate">  
+        <put-attribute name="title" value="Insert" />
+        <put-attribute name="body" value="/WEB-INF/views/SuccessfulUpdate.jsp" />  
+    </definition>
+    <definition name="bookstore" extends="defaultTemplate">  
+        <put-attribute name="title" value="Bookstore" />
+        <put-attribute name="body" value="/WEB-INF/views/bookstore.jsp" />  
+    </definition>
+    <definition name="userid" extends="defaultTemplate">  
+        <put-attribute name="title" value="Bookstore" />
+        <put-attribute name="body" value="/WEB-INF/views/userid.jsp" />  
+    </definition>
+    <definition name="modify" extends="defaultTemplate">  
+        <put-attribute name="title" value="Bookstore" />
+        <put-attribute name="body" value="/WEB-INF/views/modify.jsp" />  
+    </definition>
+
+     <definition name="showinfopage" extends="defaultTemplate">  
+        <put-attribute name="title" value="Bookstore" />
+        <put-attribute name="body" value="/WEB-INF/views/showinfopage.jsp" />  
+    </definition>
+    
+    <definition name="showbookspage" extends="defaultTemplate">  
+        <put-attribute name="title" value="Bookstore" />
+        <put-attribute name="body" value="/WEB-INF/views/showbookspage.jsp" />  
+    </definition>
+    
+    <definition name="updatePage" extends="defaultTemplate">  
+        <put-attribute name="title" value="update user" />
+        <put-attribute name="body" value="/WEB-INF/views/updatePage.jsp" />  
+    </definition>
+    
+    <definition name="successfuluserupdate" extends="defaultTemplate">  
+        <put-attribute name="title" value="Insert" />
+        <put-attribute name="body" value="/WEB-INF/views/successfuluserupdate.jsp" />  
+    </definition>
+    
+</tiles-definitions> 
