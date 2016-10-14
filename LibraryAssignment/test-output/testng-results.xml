@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58" started-at="2016-10-12T13:09:25Z" finished-at="2016-10-12T13:09:25Z">
+  <suite name="Default suite" duration-ms="102206" started-at="2016-10-14T13:43:31Z" finished-at="2016-10-14T13:45:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58" started-at="2016-10-12T13:09:25Z" finished-at="2016-10-12T13:09:25Z">
+    <test name="Default test" duration-ms="102206" started-at="2016-10-14T13:43:31Z" finished-at="2016-10-14T13:45:13Z">
+      <class name="com.glx.Regression.VerifyTitle">
+        <test-method status="PASS" signature="VerifyTitleTest()[pri:0, instance:com.glx.Regression.VerifyTitle@35d176f7]" name="VerifyTitleTest" duration-ms="102159" started-at="2016-10-14T19:13:31Z" finished-at="2016-10-14T19:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitleTest -->
+      </class> <!-- com.glx.Regression.VerifyTitle -->
       <class name="com.glx.Ambuj.DemoTest">
-        <test-method status="PASS" signature="jenkinstest()[pri:0, instance:com.glx.Ambuj.DemoTest@32709393]" name="jenkinstest" duration-ms="27" started-at="2016-10-12T18:39:25Z" finished-at="2016-10-12T18:39:25Z">
+        <test-method status="PASS" signature="jenkinstest()[pri:0, instance:com.glx.Ambuj.DemoTest@cd2dae5]" name="jenkinstest" duration-ms="0" started-at="2016-10-14T19:15:13Z" finished-at="2016-10-14T19:15:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jenkinstest -->
